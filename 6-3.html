@@ -1,0 +1,14 @@
+<div id="output"></div>
+<script>
+array = [4,5,7,2];
+function average(arr){
+	var sum = 0;
+for (i in arr){
+	sum += arr[i];
+}	
+	if (arr.length > 0)
+		return sum / arr.length;
+	return 0;
+}
+document.getElementById("output").innerHTML = "Average of [" + array.toString() + "]: " + average(array);
+</script>

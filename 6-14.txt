@@ -1,0 +1,2 @@
+Refactoring is a process of updating or re-writing software for reasons other than to improve performance or functionality.
+It is usually used to increase readability or to make further modifications easier. It can also expose unseen issues in the code.

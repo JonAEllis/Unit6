@@ -1,0 +1,14 @@
+<div id="output"></div>
+<script>
+finalnum = randomBetween(1,2);
+function randomBetween(num1, num2){
+var rand = num1;
+var diff = num2 - num1;
+if (diff == 0)
+return rand;
+while (rand === num1)
+rand= num1 + diff*Math.random();
+return rand;
+}
+document.getElementById("output").innerHTML =finalnum;
+</script>
